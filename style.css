@@ -220,3 +220,36 @@ body {
   top: 66px;
   left: 123px;
 }
+
+
+/* body {
+  background-color: transparent;
+  overflow:hidden;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  position:absolute;
+  width:100%;
+ 
+} */
+
+svg{
+  visibility:hidden;
+  overflow:visible;
+ 
+}
+
+.particle{
+  /*mix-blend-mode:overlay;*/
+}
+
+.ring{
+  vector-effect: non-scaling-stroke;
+}
